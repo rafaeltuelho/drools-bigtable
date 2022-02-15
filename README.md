@@ -3,7 +3,7 @@ By default we would test 10k row Table for performance check
 ### 10k row table scenario
 ```bash
 cd rules
-mvn clean package
+mvn clean install
 # rule package is spreadsheet-decisiontable-1.1-SNAPSHOT.jar
 cd ../myapp
 mvn clean compile exec:java

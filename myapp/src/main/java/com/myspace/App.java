@@ -21,7 +21,7 @@ public class App {
 
         // start the stopwatch
         long start = System.currentTimeMillis();
-        KieSession ksession = kieContainer.newKieSession("mykiesession2");
+        KieSession ksession = kieContainer.newKieSession("mykiesession1");
         long end = System.currentTimeMillis();
         System.out.format("Initial Kie Session elapsed time: %d \n",  (end - start));
 
